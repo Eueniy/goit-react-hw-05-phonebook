@@ -1,0 +1,40 @@
+.form {
+  position: relative;
+  box-sizing: border-box;
+  width: 400px;
+  height: 265px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+label {
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+}
+
+input {
+  font-size: 18px;
+  width: 93%;
+  display: block;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid rgb(93, 128, 243);
+}
+
+.submitButton {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(93, 128, 243);
+  display: block;
+  margin: 10px auto;
+  width: 94%;
+  height: 3em;
+  border-radius: 5px;
+  border: 0;
+}
